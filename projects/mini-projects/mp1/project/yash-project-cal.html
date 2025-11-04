@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description"
+        content="Create and style a responsive online calculator using HTML, CSS, and JavaScript." />
+  <link rel="stylesheet" type="text/css" href="yashkedi-cal.css">
+  <title>Home | Calculator</title>
+</head>
+<body>
+<div id="page-wrapper">
+  <div id="user-input">
+    <h1>Calculator</h1>
+    <label for="inputOne"></label><input id="inputOne" placeholder="First Number">
+    <label for="inputTwo"></label><input id="inputTwo" placeholder="Second Number">
+  </div>
+
+  <div id="opp">
+    <button onclick="addition()" class="button">+</button>
+    <button onclick="subtraction()" class="button">-</button>
+    <button onclick="multiplication()" class="button">*</button>
+    <button onclick="division()" class="button">/</button>
+    <button onclick="power()" class="button">**</button>
+    <button onclick="clearVal()" id="clear">Clear</button>
+  </div>
+  <h3 id="output"></h3>
+</div>
+</body>
+<script src="yashkedi-cal.js"></script>
+</html>
